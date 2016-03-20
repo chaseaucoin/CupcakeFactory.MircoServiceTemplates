@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CupcakeFactory.MicroserviceTemplates.VSIX.Chase Aucoin.52d284fa-aa4e-43a6-a02f-5303a9bce4d5" Version="1.0" Language="en-US" Publisher="Chase Q. Aucoin" />
+    <DisplayName>CupcakeFactory.MicroserviceTemplates.VSIX</DisplayName>
+    <Description>Empty VSIX Project.</Description>
+    <MoreInfo>http://CupcakeFactory.Net</MoreInfo>
+    <GettingStartedGuide>http://CupcakeFactory.Net</GettingStartedGuide>
+    <Icon>cupcakefactory.ico</Icon>
+    <Tags>MicroService</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="CupcakeFactory.MicroService" d:TargetPath="|CupcakeFactory.MicroService;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>
